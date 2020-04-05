@@ -1,0 +1,919 @@
+// common type selector css code
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  line-height: 1.75;
+  width: 100%;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+
+
+// common class selector css code
+.clear {
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+// small device css code --------------------
+
+// small device common type selector
+section {
+  margin-top: 40px;
+
+  p {
+    margin-top: 10px;
+  }
+}
+
+hr {
+  margin: 30px 0 40px;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+// small device common class selector
+.red {
+  color: #d82626;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+.inner {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.h2Box {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 1.5em;
+  padding: 20px 10px;
+  width: 100%;
+  color: #141313;
+  font-size: 20px;
+  font-weight: 400;
+  background: #f6f7fb;
+  text-align: center;
+}
+
+.h2Box:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -40px;
+  border: 40px solid transparent;
+  border-top: 20px solid #f6f7fb;
+}
+
+.h2Box p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+// header
+header {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
+
+  .logo {
+    float: left;
+    margin-right: 10px;
+
+    img {
+      width: 50px;
+    }
+  }
+
+  p {
+    line-height: 65px;
+    font-weight: 600;
+  }
+}
+
+
+
+// mainVisual
+.mainvisual {}
+
+
+
+// troubleList
+.troubleList {
+  margin-top: 0;
+
+  ul {
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #eeeeee;
+    font-weight: 600;
+    padding: 10px;
+
+    li img {
+      width: 2em;
+      margin-right: 0.25em;
+      vertical-align: text-bottom;
+    }
+
+    li + li {
+      margin-top: 20px;
+    }
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #fc6e35;
+    margin-top: 20px;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 110%;
+      left: 50%;
+      margin-left: -60px;
+      border: 60px solid transparent;
+      border-top: 30px solid #bcbcbc;
+    }
+  }
+}
+
+
+
+// consult
+.consult {
+  margin-top: 60px;
+
+  b {
+    font-weight: 600;
+  }
+}
+
+
+
+// about
+.about {
+
+  .bg {
+    background: #cfe1f5;
+    padding: 20px 0;
+
+    .media {
+      margin-top: 20px;
+
+      li + li {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+
+
+// voice
+.voice {
+
+  .inner {
+    margin-top: 20px;
+
+    .profile {
+      text-align: center;
+
+      img {
+        width: 100px;
+      }
+    }
+
+    .name {
+      text-align: center;
+      font-weight: 600;
+    }
+
+    hr {
+      margin: 20px 0 30px;
+    }
+
+  }
+}
+
+
+
+// mission
+.mission {
+  background: #eeeeee;
+  padding: 30px 0 30px;
+}
+
+
+
+// apeal
+.apeal {
+  margin-top: 20px;
+
+  b {
+    font-weight: 600;
+  }
+}
+
+
+
+// story
+.story {
+  margin-top: 20px;
+
+  .h2 {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+// postscript
+
+
+
+// contact
+.contact #acc dt {
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.contact #acc dd {
+  display: none;
+  font-size: 11px;
+  color: #777;
+  padding-top: 10px;
+}
+
+.contact #acc dd h5 {
+  margin: 10px 0;
+}
+
+.contact #acc dd p {
+  margin-bottom: 10px;
+}
+
+.contact .close {
+  cursor: pointer;
+  font-weight: bold;
+  background: #020a3a;
+  color: #fff;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.contact {
+
+
+  .h2Box {}
+
+  .guide {
+    width: 300px;
+    margin: 0 auto;
+
+    .note {
+      font-size: 0.8em;
+      font-weight: 100;
+    }
+  }
+}
+
+
+
+// summary
+.summary table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.summary th {
+  border: 1px solid #ccc;
+  background: #eee;
+  padding: 10px;
+  width: 30%;
+}
+
+.summary td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 70%;
+}
+
+
+
+// footer
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 0px;
+}
+
+footer .logo {
+  float: left;
+}
+
+footer .tel {
+  float: right;
+}
+
+footer .copy {
+  font-size: 13px;
+  display: block;
+  clear: both;
+  padding-top: 10px;
+}
+
+
+
+// pageTop
+.pageTop {
+  width: 175px;
+  height: 50px;
+  margin: 100px auto 0;
+  border-radius: 10px 10px 0 0;
+  background-color: #d64343;
+  text-align: center;
+}
+
+.pageTop a {
+  line-height: 50px;
+  color: white;
+}
+
+
+@media screen and (min-width: 750px) {
+
+  // medium device css code --------------------
+  .small {
+    display: none;
+  }
+
+  // medium device common type selector
+  section {
+    margin-top: 40px;
+
+    p {
+      margin-top: 20px;
+    }
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 1.25em;
+  }
+
+  // small device common class selector
+  .inner {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .h2Box:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    border: 60px solid transparent;
+    border-top: 30px solid #f6f7fb;
+  }
+
+  .h2Box p {
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+  // header
+  header {
+    padding: 10px 20px;
+  }
+
+
+
+  // mainVisual
+  .mainvisual {}
+
+
+
+  // troubleList
+  .troubleList {
+    ul {
+      padding: 20px;
+    }
+
+    p {
+      &::after {
+        content: "";
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        margin-left: -60px;
+        border: 60px solid transparent;
+        border-top: 30px solid #bcbcbc;
+      }
+    }
+  }
+
+
+
+  // consult
+  .consult {}
+
+
+
+  // about
+  .about {
+    .bg {
+      margin-top: 30px;
+
+      .inner {
+        width: 85%;
+
+        p {
+          width: 80%;
+          margin: 0 auto;
+        }
+
+      }
+
+      .media {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+
+        li + li {
+          margin-top: 0px;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+
+
+
+  // voice
+  .voice {
+    .inner {
+      margin-top: 40px;
+      width: 90%;
+
+      .flex {
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+          width: 25%;
+        }
+
+        .right {
+          width: 70%;
+        }
+      }
+
+      .profile {
+        img {
+          width: 100%;
+          margin-top: 20px;
+        }
+      }
+
+      .name {
+        text-align: left;
+        font-size: 1.25em;
+      }
+
+      hr {
+        margin: 30px 0 40px;
+      }
+    }
+  }
+
+
+
+  // mission
+  .mission {
+    background: #eeeeee;
+    padding: 30px 0 30px;
+
+    .h2 {
+      margin-bottom: 20px;
+    }
+  }
+
+
+
+  // apeal
+  .apeal {
+    margin-top: 60px;
+
+    .inner {
+      margin-top: 40px;
+    }
+  }
+
+
+
+  // story
+  .story {
+    margin-top: 60px;
+
+    .h2 {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      text-align: left;
+      font-size: 1.5em;
+    }
+  }
+
+
+
+  // postscript
+
+
+
+  // contact
+  .contact #acc dt {
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+  .contact #acc dd {
+    display: none;
+    font-size: 11px;
+    color: #777;
+    padding-top: 10px;
+  }
+
+  .contact #acc dd h5 {
+    margin: 10px 0;
+  }
+
+  .contact #acc dd p {
+    margin-bottom: 10px;
+  }
+
+  .contact .close {
+    cursor: pointer;
+    font-weight: bold;
+    background: #020a3a;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .contact {
+
+
+    .h2Box {}
+
+    .guide {
+      width: 70%;
+      margin: 0 auto;
+
+      .note {
+        font-size: 0.8em;
+        font-weight: 100;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  // large device css code --------------------
+  .medium {
+    display: none;
+  }
+
+  // large device common type selector
+
+  // large device common class selector
+  .largeinner {
+    width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .h2Box:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -90px;
+    border: 90px solid transparent;
+    border-top: 45px solid #f6f7fb;
+  }
+
+  .h2Box p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .h2 {
+    font-size: 1.5em;
+  }
+
+
+
+  // header
+  header {
+    padding: 10px 20px;
+  }
+
+
+
+  // mainVisual
+  .mainvisual {}
+
+
+
+  // troubleList
+  .troubleList {
+    ul {
+      padding: 20px;
+      width: 70%;
+      margin: 30px auto 0;
+    }
+
+    p {
+      margin-top: 40px;
+      text-align: center;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 175%;
+        left: 50%;
+        margin-left: -90px;
+        border: 90px solid transparent;
+        border-top: 45px solid #bcbcbc;
+      }
+    }
+  }
+
+
+
+  // consult
+  .consult {
+    margin-top: 100px;
+
+    .h2 {
+      margin-bottom: 00px;
+    }
+
+    .flex {
+      display: flex;
+      justify-content: space-between;
+
+      .left {
+        width: 49%;
+      }
+
+      .right {
+        width: 49%;
+      }
+    }
+
+    .center {
+      font-size: 1.2em;
+      width: 70%;
+      margin: 45px auto 30px;
+    }
+  }
+
+
+
+  // about
+  .about {
+    margin-top: 80px;
+
+    .bg {
+      margin-top: 45px;
+      padding: 50px 0;
+
+      .inner {
+        width: 85%;
+
+        p {
+          width: 80%;
+          margin: 0 auto;
+        }
+
+      }
+
+      .media {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+
+        li + li {
+          margin-top: 0px;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+
+
+
+  // voice
+  .voice {
+    .inner {
+      margin-top: 40px;
+      width: 80%;
+
+      .flex {
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+          width: 20%;
+        }
+
+        .right {
+          width: 75%;
+        }
+      }
+
+      .profile {
+        img {
+          width: 100%;
+          margin-top: 20px;
+        }
+      }
+
+      .name {
+        text-align: left;
+        font-size: 1.25em;
+      }
+    }
+  }
+
+
+
+  // mission
+  .mission {
+    background: #eeeeee;
+    padding: 45px 0 45px;
+
+    .h2 {
+      margin-bottom: 20px;
+    }
+
+    .flex {
+      display: flex;
+      justify-content: space-between;
+
+      .right {
+        order: 2;
+        width: 49%;
+        margin-top: 30px;
+      }
+
+      .left {
+        width: 49%;
+      }
+    }
+
+    .center {
+      width: 90%;
+      margin: 20px auto 0;
+    }
+  }
+
+
+
+  // apeal
+  .apeal {
+    margin-top: 60px;
+
+    .inner {
+      margin-top: 40px;
+      width: 80%;
+    }
+
+    .flex {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        width: 45%;
+      }
+    }
+  }
+
+
+
+  // story
+  .story {
+    margin-top: 60px;
+    
+    .inner {
+      width: 70%;
+    }
+  }
+
+
+
+  // postscript
+  .postscript {
+    .inner {
+      width: 70%;
+      padding: 40px 0;
+      font-size: 1.25em;
+    }
+  }
+
+
+
+  // contact
+  .contact #acc dt {
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+  .contact #acc dd {
+    display: none;
+    font-size: 11px;
+    color: #777;
+    padding-top: 10px;
+  }
+
+  .contact #acc dd h5 {
+    margin: 10px 0;
+  }
+
+  .contact #acc dd p {
+    margin-bottom: 10px;
+  }
+
+  .contact .close {
+    cursor: pointer;
+    font-weight: bold;
+    background: #020a3a;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .contact {
+
+    .h2Box {
+      margin-bottom: 80px;
+    }
+
+    .guide {
+      width: 70%;
+      margin: 0 auto;
+
+      .note {
+        font-size: 0.8em;
+        font-weight: 100;
+      }
+    }
+  }
+
+}

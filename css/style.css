@@ -1,0 +1,674 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  line-height: 1.75;
+  width: 100%;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.clear {
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+section {
+  margin-top: 40px;
+}
+section p {
+  margin-top: 10px;
+}
+
+hr {
+  margin: 30px 0 40px;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+.red {
+  color: #d82626;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+.inner {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.h2Box {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 1.5em;
+  padding: 20px 10px;
+  width: 100%;
+  color: #141313;
+  font-size: 20px;
+  font-weight: 400;
+  background: #f6f7fb;
+  text-align: center;
+}
+
+.h2Box:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -40px;
+  border: 40px solid transparent;
+  border-top: 20px solid #f6f7fb;
+}
+
+.h2Box p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
+}
+header .logo {
+  float: left;
+  margin-right: 10px;
+}
+header .logo img {
+  width: 50px;
+}
+header p {
+  line-height: 65px;
+  font-weight: 600;
+}
+
+.troubleList {
+  margin-top: 0;
+}
+.troubleList ul {
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid #000;
+  background-color: #eeeeee;
+  font-weight: 600;
+  padding: 10px;
+}
+.troubleList ul li img {
+  width: 2em;
+  margin-right: 0.25em;
+  vertical-align: text-bottom;
+}
+.troubleList ul li + li {
+  margin-top: 20px;
+}
+.troubleList p {
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #fc6e35;
+  margin-top: 20px;
+  position: relative;
+}
+.troubleList p::after {
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  margin-left: -60px;
+  border: 60px solid transparent;
+  border-top: 30px solid #bcbcbc;
+}
+
+.consult {
+  margin-top: 60px;
+}
+.consult b {
+  font-weight: 600;
+}
+
+.about .bg {
+  background: #cfe1f5;
+  padding: 20px 0;
+}
+.about .bg .media {
+  margin-top: 20px;
+}
+.about .bg .media li + li {
+  margin-top: 20px;
+}
+
+.voice .inner {
+  margin-top: 20px;
+}
+.voice .inner .profile {
+  text-align: center;
+}
+.voice .inner .profile img {
+  width: 100px;
+}
+.voice .inner .name {
+  text-align: center;
+  font-weight: 600;
+}
+.voice .inner hr {
+  margin: 20px 0 30px;
+}
+
+.mission {
+  background: #eeeeee;
+  padding: 30px 0 30px;
+}
+
+.apeal {
+  margin-top: 20px;
+}
+.apeal b {
+  font-weight: 600;
+}
+
+.story {
+  margin-top: 20px;
+}
+.story .h2 {
+  margin-bottom: 20px;
+}
+
+.contact #acc dt {
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.contact #acc dd {
+  display: none;
+  font-size: 11px;
+  color: #777;
+  padding-top: 10px;
+}
+
+.contact #acc dd h5 {
+  margin: 10px 0;
+}
+
+.contact #acc dd p {
+  margin-bottom: 10px;
+}
+
+.contact .close {
+  cursor: pointer;
+  font-weight: bold;
+  background: #020a3a;
+  color: #fff;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.contact .guide {
+  width: 300px;
+  margin: 0 auto;
+}
+.contact .guide .note {
+  font-size: 0.8em;
+  font-weight: 100;
+}
+
+.summary table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.summary th {
+  border: 1px solid #ccc;
+  background: #eee;
+  padding: 10px;
+  width: 30%;
+}
+
+.summary td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 70%;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 0px;
+}
+
+footer .logo {
+  float: left;
+}
+
+footer .tel {
+  float: right;
+}
+
+footer .copy {
+  font-size: 13px;
+  display: block;
+  clear: both;
+  padding-top: 10px;
+}
+
+.pageTop {
+  width: 175px;
+  height: 50px;
+  margin: 100px auto 0;
+  border-radius: 10px 10px 0 0;
+  background-color: #d64343;
+  text-align: center;
+}
+
+.pageTop a {
+  line-height: 50px;
+  color: white;
+}
+
+@media screen and (min-width: 750px) {
+  .small {
+    display: none;
+  }
+
+  section {
+    margin-top: 40px;
+  }
+  section p {
+    margin-top: 20px;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 1.25em;
+  }
+
+  .inner {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .h2Box:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    border: 60px solid transparent;
+    border-top: 30px solid #f6f7fb;
+  }
+
+  .h2Box p {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    padding: 10px 20px;
+  }
+
+  .troubleList ul {
+    padding: 20px;
+  }
+  .troubleList p::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    margin-left: -60px;
+    border: 60px solid transparent;
+    border-top: 30px solid #bcbcbc;
+  }
+
+  .about .bg {
+    margin-top: 30px;
+  }
+  .about .bg .inner {
+    width: 85%;
+  }
+  .about .bg .inner p {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .about .bg .media {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about .bg .media li + li {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+
+  .voice .inner {
+    margin-top: 40px;
+    width: 90%;
+  }
+  .voice .inner .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .voice .inner .flex .left {
+    width: 25%;
+  }
+  .voice .inner .flex .right {
+    width: 70%;
+  }
+  .voice .inner .profile img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .voice .inner .name {
+    text-align: left;
+    font-size: 1.25em;
+  }
+  .voice .inner hr {
+    margin: 30px 0 40px;
+  }
+
+  .mission {
+    background: #eeeeee;
+    padding: 30px 0 30px;
+  }
+  .mission .h2 {
+    margin-bottom: 20px;
+  }
+
+  .apeal {
+    margin-top: 60px;
+  }
+  .apeal .inner {
+    margin-top: 40px;
+  }
+
+  .story {
+    margin-top: 60px;
+  }
+  .story .h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 1.5em;
+  }
+
+  .contact #acc dt {
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+  .contact #acc dd {
+    display: none;
+    font-size: 11px;
+    color: #777;
+    padding-top: 10px;
+  }
+
+  .contact #acc dd h5 {
+    margin: 10px 0;
+  }
+
+  .contact #acc dd p {
+    margin-bottom: 10px;
+  }
+
+  .contact .close {
+    cursor: pointer;
+    font-weight: bold;
+    background: #020a3a;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .contact .guide {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .contact .guide .note {
+    font-size: 0.8em;
+    font-weight: 100;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .medium {
+    display: none;
+  }
+
+  .largeinner {
+    width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .h2Box:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -90px;
+    border: 90px solid transparent;
+    border-top: 45px solid #f6f7fb;
+  }
+
+  .h2Box p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .h2 {
+    font-size: 1.5em;
+  }
+
+  header {
+    padding: 10px 20px;
+  }
+
+  .troubleList ul {
+    padding: 20px;
+    width: 70%;
+    margin: 30px auto 0;
+  }
+  .troubleList p {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .troubleList p::after {
+    content: "";
+    position: absolute;
+    top: 175%;
+    left: 50%;
+    margin-left: -90px;
+    border: 90px solid transparent;
+    border-top: 45px solid #bcbcbc;
+  }
+
+  .consult {
+    margin-top: 100px;
+  }
+  .consult .h2 {
+    margin-bottom: 00px;
+  }
+  .consult .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .consult .flex .left {
+    width: 49%;
+  }
+  .consult .flex .right {
+    width: 49%;
+  }
+  .consult .center {
+    font-size: 1.2em;
+    width: 70%;
+    margin: 45px auto 30px;
+  }
+
+  .about {
+    margin-top: 80px;
+  }
+  .about .bg {
+    margin-top: 45px;
+    padding: 50px 0;
+  }
+  .about .bg .inner {
+    width: 85%;
+  }
+  .about .bg .inner p {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .about .bg .media {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about .bg .media li + li {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+
+  .voice .inner {
+    margin-top: 40px;
+    width: 80%;
+  }
+  .voice .inner .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .voice .inner .flex .left {
+    width: 20%;
+  }
+  .voice .inner .flex .right {
+    width: 75%;
+  }
+  .voice .inner .profile img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .voice .inner .name {
+    text-align: left;
+    font-size: 1.25em;
+  }
+
+  .mission {
+    background: #eeeeee;
+    padding: 45px 0 45px;
+  }
+  .mission .h2 {
+    margin-bottom: 20px;
+  }
+  .mission .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mission .flex .right {
+    order: 2;
+    width: 49%;
+    margin-top: 30px;
+  }
+  .mission .flex .left {
+    width: 49%;
+  }
+  .mission .center {
+    width: 90%;
+    margin: 20px auto 0;
+  }
+
+  .apeal {
+    margin-top: 60px;
+  }
+  .apeal .inner {
+    margin-top: 40px;
+    width: 80%;
+  }
+  .apeal .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .apeal .flex p {
+    width: 45%;
+  }
+
+  .story {
+    margin-top: 60px;
+  }
+  .story .inner {
+    width: 70%;
+  }
+
+  .postscript .inner {
+    width: 70%;
+    padding: 40px 0;
+    font-size: 1.25em;
+  }
+
+  .contact #acc dt {
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+  .contact #acc dd {
+    display: none;
+    font-size: 11px;
+    color: #777;
+    padding-top: 10px;
+  }
+
+  .contact #acc dd h5 {
+    margin: 10px 0;
+  }
+
+  .contact #acc dd p {
+    margin-bottom: 10px;
+  }
+
+  .contact .close {
+    cursor: pointer;
+    font-weight: bold;
+    background: #020a3a;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .contact .h2Box {
+    margin-bottom: 80px;
+  }
+  .contact .guide {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .contact .guide .note {
+    font-size: 0.8em;
+    font-weight: 100;
+  }
+}
