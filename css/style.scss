@@ -62,15 +62,15 @@ h2 {
   font-weight: 600;
 }
 
-.inner {
-  width: 95%;
-  margin: 0 auto;
+.inner,.center{
+  width: 90%;
+  margin: 10px auto;
 }
 
 .h2Box {
   position: relative;
   display: inline-block;
-  margin: 0 0 1.5em;
+  margin: 0 0 2em;
   padding: 20px 10px;
   width: 100%;
   color: #141313;
@@ -238,6 +238,10 @@ header {
 // apeal
 .apeal {
   margin-top: 20px;
+  
+  p {
+    margin-bottom: 30px;
+  }
 
   b {
     font-weight: 600;
@@ -294,8 +298,28 @@ header {
 
 .contact {
 
+  .h2Box {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 2em;
+    padding: 20px 10px;
+    width: 100%;
+    color: #141313;
+    font-size: 20px;
+    font-weight: 400;
+    background: #ffefc7;
+    text-align: center;
+  }
 
-  .h2Box {}
+  .h2Box:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -40px;
+    border: 40px solid transparent;
+    border-top: 20px solid #ffefc7;
+  }
 
   .guide {
     width: 300px;
@@ -397,9 +421,8 @@ footer .copy {
   }
 
   // small device common class selector
-  .inner {
+  .inner,.center {
     width: 70%;
-    margin: 0 auto;
   }
 
   .h2Box:before {
@@ -491,14 +514,15 @@ footer .copy {
   .voice {
     .inner {
       margin-top: 40px;
-      width: 90%;
+      width: 80%;
 
       .flex {
         display: flex;
         justify-content: space-between;
 
         .left {
-          width: 25%;
+          width: 27.5%;
+          margin-top: 40px;
         }
 
         .right {
@@ -915,5 +939,26 @@ footer .copy {
       }
     }
   }
+  // summary
+  .summary table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .summary th {
+    border: 1px solid #ccc;
+    background: #eee;
+    padding: 10px;
+    width: 30%;
+  }
+
+  .summary td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 70%;
+  }
+
 
 }

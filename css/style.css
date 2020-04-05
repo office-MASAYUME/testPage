@@ -51,15 +51,15 @@ h2 {
   font-weight: 600;
 }
 
-.inner {
-  width: 95%;
-  margin: 0 auto;
+.inner, .center {
+  width: 90%;
+  margin: 10px auto;
 }
 
 .h2Box {
   position: relative;
   display: inline-block;
-  margin: 0 0 1.5em;
+  margin: 0 0 2em;
   padding: 20px 10px;
   width: 100%;
   color: #141313;
@@ -180,6 +180,9 @@ header p {
 .apeal {
   margin-top: 20px;
 }
+.apeal p {
+  margin-bottom: 30px;
+}
 .apeal b {
   font-weight: 600;
 }
@@ -221,6 +224,27 @@ header p {
   display: inline-block;
 }
 
+.contact .h2Box {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 2em;
+  padding: 20px 10px;
+  width: 100%;
+  color: #141313;
+  font-size: 20px;
+  font-weight: 400;
+  background: #ffefc7;
+  text-align: center;
+}
+.contact .h2Box:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -40px;
+  border: 40px solid transparent;
+  border-top: 20px solid #ffefc7;
+}
 .contact .guide {
   width: 300px;
   margin: 0 auto;
@@ -304,9 +328,8 @@ footer .copy {
     font-size: 1.25em;
   }
 
-  .inner {
+  .inner, .center {
     width: 70%;
-    margin: 0 auto;
   }
 
   .h2Box:before {
@@ -363,14 +386,15 @@ footer .copy {
 
   .voice .inner {
     margin-top: 40px;
-    width: 90%;
+    width: 80%;
   }
   .voice .inner .flex {
     display: flex;
     justify-content: space-between;
   }
   .voice .inner .flex .left {
-    width: 25%;
+    width: 27.5%;
+    margin-top: 40px;
   }
   .voice .inner .flex .right {
     width: 70%;
@@ -670,5 +694,25 @@ footer .copy {
   .contact .guide .note {
     font-size: 0.8em;
     font-weight: 100;
+  }
+
+  .summary table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .summary th {
+    border: 1px solid #ccc;
+    background: #eee;
+    padding: 10px;
+    width: 30%;
+  }
+
+  .summary td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 70%;
   }
 }
